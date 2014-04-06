@@ -1,2 +1,0 @@
-#!/bin/sh
-cp -a $OPENSHIFT_REPO_DIR/data/. $OPENSHIFT_DATA_DIR/
