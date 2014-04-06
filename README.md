@@ -15,7 +15,7 @@ How to run GeoServer on OpenShift:
   cp -a $OPENSHIFT_REPO_DIR/data/. $OPENSHIFT_DATA_DIR/
 - Grant GeoServer access to data folder: chmod -R ugo+rw $OPENSHIFT_DATA_DIR/geoserver_data/
 - Clone repository from OpenShift
-- Change someting not important (add space) to src/main/webapp/index.html
+- Change someting not important (add space to src/main/webapp/index.html)
 - Push repository back to OpenShift (this will marven recompile)
 - Wait for application restarting...
 - Wait a litte bit more...
