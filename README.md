@@ -13,6 +13,7 @@ How to run GeoServer on OpenShift:
   rhc ssh -a [app-name]
 - Copy geoserver_data folder: 
   cp -a $OPENSHIFT_REPO_DIR/data/. $OPENSHIFT_DATA_DIR/
+- Grant GeoServer access to data folder: chmod -R ugo+rw $OPENSHIFT_DATA_DIR/geoserver_data/
 - Restart application on OpenShift Online
 - Wait for application restarting...
 - Wait a litte bit more...
