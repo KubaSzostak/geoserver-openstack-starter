@@ -228,12 +228,11 @@ pre {
 		<code>rhc ssh -a [app-name]</code>
 	</li>
 	<li>Copy <em>geoserver_data</em> folder: <br />
-		<code>cp -a $OPENSHIFT_REPO_DIR/data/. $OPENSHIFT_DATA_DIR/</code> <br />
-		<code>chmod -R ugo+rw $OPENSHIFT_DATA_DIR/geoserver_data/</code>
+		<code>cp -a $OPENSHIFT_REPO_DIR/data/. $OPENSHIFT_DATA_DIR/</code>
 	</li>
 	<li>Restart application on OpenShift Online</li>
 	<li>Wait for application restarting...</li>
-	<li>Wait a litte bit more...</li>
+	<li>Wait a litte bit more</li>
 	<li>Login to Your application under <em>/geoserver/web/</em> subdir</li>
 
 	</ul>
