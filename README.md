@@ -8,7 +8,7 @@ How to run GeoServer on OpenShift:
 - Start creating new Tomcat 7 application
 - Enter Source Code (Optional URL to a Git repository):
   https://github.com/kubaszostak/geoserver-openstack-starter.git
-  on Configure the application page.
+  on _Configure the application_ page.
 - SSH to Your new application: 
 ```sh
 rhc ssh -a [app-name]
