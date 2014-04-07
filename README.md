@@ -21,6 +21,7 @@ cp -a $OPENSHIFT_REPO_DIR/data/. $OPENSHIFT_DATA_DIR/
 ```sh
 chmod -R ugo+rw $OPENSHIFT_DATA_DIR/geoserver_data/
 ```
+- Restart Your application on OpenShift
 - Wait for application restarting...
 - Wait a litte bit more...
 - Login to Your application under /geoserver/web/ subdir
