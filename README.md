@@ -23,5 +23,9 @@ chmod -R ugo+rw $OPENSHIFT_DATA_DIR/geoserver_data/
 ```
 - Restart Your application on OpenShift
 - Wait for application restarting...
+- You can see log processing by typing
+```sh
+rhc tail <app_name>
+```
 - Wait a litte bit more...
 - Login to Your application under /geoserver/web/ subdir

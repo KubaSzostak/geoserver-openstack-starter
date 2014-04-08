@@ -206,12 +206,41 @@ pre {
 
 </head>
 <body>
+    
 
 <section class='container'>
           <hgroup>
             <h1>GeoServer starter for OpenShift</h1>
           </hgroup>
 
+    
+    <div class="row">
+        
+          <section class="col-xs-12 col-sm-6 col-md-6">
+
+                <h2>Quick links</h2>
+                    <ul>
+                        <li><a href="/geoserver/web/">GeoServer admin panel</a></li>
+                        <li><a href="/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&layers=sf:streams&styles=&bbox=589434.4971235897,4913947.342298816,609518.2117427464,4928071.049965891&width=512&height=360&srs=EPSG:26713&format=application/openlayers">
+                            Sample WMS ouput
+                        </a></li>
+                        <li><a href="https://github.com/kubaszostak/geoserver-openstack-starter/">Download source code</a></li>
+                    </ul>
+              </section>
+        
+        
+          <section class="col-xs-12 col-sm-6 col-md-6">
+            <h2>Default credentials</h2>
+            <p>	user: admin<br />
+                password: geoserver
+            </p>
+              </section>
+        
+    </div>
+    
+    <hr />
+    <p>&nbsp;</p>
+    
 
         <div class="row">
           <section class='col-xs-12 col-sm-6 col-md-6'>
@@ -265,24 +294,13 @@ $ git push</pre>
             </section>
 
           </section>
+            
+            
           <section class="col-xs-12 col-sm-6 col-md-6">
 
+
+
                 <h2>Managing your application</h2>
-
-                <h3>Quick links</h3>
-		<ul>
-			<li><a href="/geoserver/web/">GeoServer admin panel</a></li>
-			<li><a href="/geoserver/sf/wms?service=WMS&version=1.1.0&request=GetMap&layers=sf:streams&styles=&bbox=589434.4971235897,4913947.342298816,609518.2117427464,4928071.049965891&width=512&height=360&srs=EPSG:26713&format=application/openlayers">
-Sample WMS ouput
-</a></li>
-		</ul>
-
-		<h3>Default credentials</h3>
-		<p>	user: admin<br />
-			password: geoserver
-		</p>
-
-
 
                 <h3>Web Console</h3>
                 <p>You can use the OpenShift web console to enable additional capabilities via cartridges, add collaborator access authorizations, designate custom domain aliases, and manage domain memberships.</p>
