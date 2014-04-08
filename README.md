@@ -32,3 +32,8 @@ rhc tail <app_name>
 
 Live demo:
 http://geoserver-ksz.rhcloud.com
+
+---
+
+Przeczytaj też: 
+http://kubaszostak.blogspot.com/2014/04/openshift-darmowy-hosting-geoserver-wms.html
