@@ -29,3 +29,6 @@ rhc tail <app_name>
 ```
 - Wait a litte bit more...
 - Login to Your application under /geoserver/web/ subdir
+
+Live demo:
+http://geoserver-ksz.rhcloud.com
